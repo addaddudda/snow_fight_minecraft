@@ -33,7 +33,7 @@ public class Start_FightCommand implements CommandExecutor, TabExecutor {
         assert p2 != null;
         p1.teleport(loc_p1);
         p2.teleport(loc_p2);
-
+//
         if(p.isOp()){
             for(Player player : Bukkit.getOnlinePlayers()){
                 player.spigot().sendMessage(
