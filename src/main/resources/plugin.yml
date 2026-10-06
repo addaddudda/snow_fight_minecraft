@@ -1,0 +1,9 @@
+name: snow_war
+version: '${version}'
+
+main: minecraft.snow_war.Snow_war
+api-version: '1.21'
+
+commands:
+  start_fight:
+
