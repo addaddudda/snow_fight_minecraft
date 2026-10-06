@@ -28,7 +28,7 @@ public class Start_FightCommand implements CommandExecutor, TabExecutor {
         Location loc_p1 = new Location(p.getWorld(),-8, -59, 8, -90, 1);
         Location loc_p2 = new Location(p.getWorld(), 7, -59, 8, 90, 1);
 
-
+//
         assert p1 != null;
         assert p2 != null;
         p1.teleport(loc_p1);
